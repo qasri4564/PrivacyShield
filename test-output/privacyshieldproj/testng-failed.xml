@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [privacyshieldproj]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testing Parameterization(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.privacyshield.testcases.TC_Psform_01">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="submitform"/>
+        </methods>
+      </class> <!-- com.privacyshield.testcases.TC_Psform_01 -->
+    </classes>
+  </test> <!-- Testing Parameterization(failed) -->
+</suite> <!-- Failed suite [privacyshieldproj] -->
