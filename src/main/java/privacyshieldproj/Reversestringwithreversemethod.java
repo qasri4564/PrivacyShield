@@ -6,8 +6,7 @@ public class Reversestringwithreversemethod {
 		// TODO Auto-generated method stub
 		
 		String str = "Automation";
-		StringBuilder str2 = new StringBuilder();
-		str2.append(str);
+		StringBuilder str2 = new StringBuilder(str);
 		str2 = str2.reverse();
 		System.out.println(str2);
 

@@ -9,10 +9,25 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">privacyshield</th></tr>
-<tr><td><a href="#t0">Testing Parameterization</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">79,565</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Testing Parameterization</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">61,131</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">privacyshield</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Testing Parameterization &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.privacyshield.testcases.TC_Psform_01</td><td><a href="#m0">submitform</a></td><td rowspan="1">1651063813227</td><td rowspan="1">70962</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">privacyshield</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Testing Parameterization &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.privacyshield.testcases.TC_Psform_01</td><td><a href="#m0">submitform</a></td><td rowspan="1">1662104960529</td><td rowspan="1">53056</td></tr></tbody>
 </table>
-<h2>Testing Parameterization</h2><h3 id="m0">com.privacyshield.testcases.TC_Psform_01#submitform</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Testing Parameterization</h2><h3 id="m0">com.privacyshield.testcases.TC_Psform_01#submitform</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //label[text()=&quot;Last Name&quot;]//preceding::input[@class=&quot;x25&quot;][1]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;AAAW46ZLPC0508&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
+	at com.privacyshield.pageobjects.Paymentpage.setZipCode(Paymentpage.java:113)
+	at com.privacyshield.testcases.TC_Psform_01.submitform(TC_Psform_01.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

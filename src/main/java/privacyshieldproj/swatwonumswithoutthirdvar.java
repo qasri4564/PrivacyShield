@@ -7,12 +7,12 @@ public class swatwonumswithoutthirdvar {
 int x = 12;
 int y = 23;
 
-System.out.println("Before swap" +x  +y);
+System.out.println("Before swap"+ " "+x +" " +y);
 
 x=x+y;
 y=x-y;
 x=x-y;
-System.out.println("After swap" +x  +y);
+System.out.println("After swap"+ " "+x +" " +y);
 
 	}
 
